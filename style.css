@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-content {
+    padding: 15px;
+    font-size: 13px;
+    list-style: none;
+    float: left;
+}
+
+.header-area {
+    line-height: 49px;
+    background-color: #000000d8;
+}
+
+.top-bar {
+    line-height: 4px;
+}
+
+.top-header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+.top-bars {
+    text-align: right;
+    line-height: 4px;
+}
+
+.top-contact {
+    display: inline-block;
+    padding: 15px;
+    font-size: 13px;
+    list-style: none;
+    position: relative;
+}
+
+.top-headers {
+    margin-left: 30px;
+}
+
+.top-headers a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.site-branding {
+    float: left;
+
+}
+
+.site-brandings {
+    text-align: left;
+    margin-bottom: 8px;
+    margin-right: -100px;
+    margin-top: 6px;
+}
+
+.site-branding a img {
+    max-height: 100px;
+}
+
+.navbar {
+    background: rgb(22, 22, 22);
+}
+
+.navbar-nav {
+    font-size: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(255, 242, 0);
+}
+
+
+.nav-link {
+    color: #fff;
+}
+
+.footer-content {
+    margin-top: 287px;
+    left: 191px;
+    color: #fff;
+}
+
+.footer-navbar {
+    background-color: #1050a2;
+    color: white;
+}
+
+.Chairman-content {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.img-photo {
+    box-shadow: 0.5rem 5px 1rem rgb(222, 217, 233);
+    border-radius: 50%;
+}
+
+.img-photo {
+    transition: all 0.4s ease;
+}
+
+.img-photo:hover {
+    transform: scale(0.9);
+    opacity: 0.7;
+}
+
+
+.about-content p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.img-photo-two {
+    box-shadow: 0px 0.5rem 15px 2px rgba(2, 1, 6, 0.938);
+    border-radius: 50%;
+    height: 300px;
+    width: 400;
+}
+
+.img-photo-two {
+    transition: all 0.4s ease;
+}
+
+.img-photo-two:hover {
+    transform: scale(0.9);
+    opacity: 0.7;
+}
+
+.main-depart {
+    background-image: url("images/Plan-Mathura-Vrindavan-Agra-via-Nandgaon-Barsana-Govardhan-Gokul.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.main-depart::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+
+.main-govt {
+    background-image: url("images/temple.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.main-govt::before {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+/* DEPARTMENTS */
+
+.title {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.title p {
+    font-weight: 900;
+}
+
+
+
+.title-header {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+
+.custom-card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(18, 18, 18, 0.593);
+}
+
+.card-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.custom-card:hover .card-icon {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.custom-card h5 {
+    font-size: 1.1rem;
+}
+
+.custom-card p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.section-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.service-section-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.service-title-header {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.service-title {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+/*photo-media*/
+
+.custom-img-box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 220px;
+    position: relative;
+}
+
+.custom-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease-in-out;
+}
+
+.custom-img-box:hover img {
+    transform: scale(1.1);
+}
+
+
+
+.img-one {
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.staf-title {
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(3, 1, 13);
+    line-height: 16px;
+    padding-top: 5px;
+}
+
+.staf-desc p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+/*news*/
+
+
+.main-news {
+    background-image: url("images/temple.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.main-news::before {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+.custom-card-box {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+
+    border-radius: 16px;
+    border: 2px solid #cce3cc;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.custom-card-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
+    border-radius: 12px;
+}
+
+.custom-card-box img:hover {
+    transform: scale(1.08);
+    filter: brightness(0.9);
+}
+
+
+.feedback-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feedback-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.form-control:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 8px rgba(106, 17, 203, 0.4);
+}
+
+.btn-gradient {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #fff;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-gradient:hover {
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.feedback-img {
+    object-fit: cover;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.feedback-img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.google-map {
+    padding-bottom: 20px;
+}
+
+.google-map iframe {
+    height: 285px;
+    width: 100%;
+}
+
+.icon {
+    font-size: 10px;
+}
+
+
+.text-foot {
+    font-size: 14px;
+}
+
+.text-foot ul {
+    list-style: none;
+    font-weight: 400;
+    color: #c1c7cd;
+}
+
+.social-icon p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text-foot ul li {
+    line-height: 23px;
+}
+
+.small-line span {
+    height: 10px;
+    width: 10px;
+    color: #fff;
+}
+
+.social-icon i {
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icon i:hover {
+    transform: scale(1.2);
+    color: #ffed2a !important;
+    text-shadow: 0 0 8px rgba(226, 160, 6, 0.811);
+}
+
+.social-icon .list-inline-item {
+    margin-right: 10px;
+}
+
+.next-inside-foot {
+    padding-left: 60px;
+}
+
+.next-text-foot ul li {
+    margin-bottom: 12px;
+}
+
+.last-footer {
+    background-color: rgb(3, 3, 64);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, .8);
+}
+
+.card {
+    border: none;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    border-radius: 15px;
+    background: #111;
+    color: #fff;
+    transition: transform 0.6s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(29, 12, 218, 0.877);
+}
+
+/*our-services*/
+
+.custom-card {
+    width: 220px;
+    margin: auto;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card img {
+    max-width: 80px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover img {
+    transform: rotate(5deg) scale(1.1);
+}
+
+.custom-card h5 a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.custom-card .read {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 6px 12px;
+    background: #4cafef;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.custom-card .read:hover {
+    background: #357abd;
+}
+
+
+.card {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.8s forwards;
+}
+
+
+/*govt*/
+
+.govt-title-header {
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.govt-title {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.custom-card {
+    background: linear-gradient(135deg, #f6d365, #ef4212);
+    border-radius: 18px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    border: none;
+}
+
+.custom-card img {
+    max-width: 90px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-card h5 a {
+    color: #2d2d2d;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.custom-card p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.custom-card .read {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 25px;
+    background: #2d87f0;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-card .read:hover {
+    background: #185abc;
+}
+
+
+.custom-card:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.custom-card:hover img {
+    transform: scale(1.1) rotate(3deg);
+}
+
+
+/*staff*/
+
+#staf-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.staf-title-header p{
+    font-weight: 500;
+}
+
+.staff-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 260px;   /* box छोटा रखने के लिए */
+  margin: auto;
+}
+
+.staff-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.staff-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;   /* image circle */
+  border: 3px solid #28a745;
+  object-fit: cover;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.staff-img:hover {
+  transform: scale(1.08);
+  filter: brightness(0.9);
+}
+
+section {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+
+
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
